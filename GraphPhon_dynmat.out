@@ -1,0 +1,46 @@
+
+     Program DYNMAT v.6.3MaX starts on 12Mar2023 at 17:54:33 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     1 processors
+
+     MPI processes distributed on     1 nodes
+
+     Reading Dynamical Matrix from file GraphPhonG.dyn1
+     Message from routine volume:
+     axis vectors are left-handed
+     ...Force constants read
+     ...epsilon and Z* read
+     A direction for q was not specified:TO-LO splitting will be absent
+
+     Polarizability (A^3 units)
+     multiply by 0.563671 for Clausius-Mossotti correction
+        72.604391    0.000000    0.000000
+         0.000000   72.604825    0.000000
+         0.000000    0.000000    5.690624
+
+     IR activities are in (D/A)^2/amu units
+
+# mode   [cm-1]    [THz]      IR
+    1     -0.00   -0.0000    0.0000
+    2     -0.00   -0.0000    0.0000
+    3      0.00    0.0000    0.0000
+    4    873.66   26.1918    0.0000
+    5   1583.14   47.4612    0.0000
+    6   1583.21   47.4634    0.0000
+
+     DYNMAT       :     0.00s CPU         0.00s WALL
+
+
+   This run was terminated on:  17:54:33  12Mar2023            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

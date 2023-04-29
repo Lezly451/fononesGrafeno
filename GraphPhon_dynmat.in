@@ -1,0 +1,5 @@
+&input
+   asr = 'simple'
+   fildyn = 'GraphPhonG.dyn1'
+   filxsf = 'GraphPhonG.dyn.axsf'
+/

@@ -1,0 +1,152 @@
+
+     Program Q2R v.6.3MaX starts on  8Mar2023 at 12: 5:48 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     8 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =       8
+
+     reading grid info from file GraphPhon.dyn0    
+  reading force constants from file GraphPhon.dyn1
+ macroscopic fields = T
+   4.35201  -0.00000  -0.00000
+  -0.00000   4.35203   0.00000
+   0.00000   0.00000   1.26273
+  na=            1
+   0.05555   0.00000   0.00000
+   0.00000   0.05557   0.00000
+   0.00000   0.00000  -0.00179
+  na=            2
+   0.06053  -0.00000   0.00000
+   0.00000   0.06053   0.00000
+   0.00000   0.00000  -0.00067
+     Message from routine volume:
+     axis vectors are left-handed
+     Message from routine volume:
+     axis vectors are left-handed
+  nqs=            1
+ q=   0.00000000  0.00000000  0.00000000
+  reading force constants from file GraphPhon.dyn2
+  nqs=            2
+ q=   0.00000000  0.00000000  0.06148504
+ q=   0.00000000  0.00000000 -0.06148504
+  reading force constants from file GraphPhon.dyn3
+  nqs=            1
+ q=   0.00000000  0.00000000 -0.12297007
+  reading force constants from file GraphPhon.dyn4
+  nqs=            4
+ q=   0.14433780 -0.25000000  0.00000000
+ q=  -0.14433780  0.25000000 -0.00000000
+ q=   0.14433780  0.25000000  0.00000000
+ q=  -0.14433780 -0.25000000 -0.00000000
+  reading force constants from file GraphPhon.dyn5
+  nqs=            8
+ q=   0.14433780 -0.25000000  0.06148504
+ q=  -0.14433780  0.25000000 -0.06148504
+ q=   0.14433780 -0.25000000 -0.06148504
+ q=  -0.14433780  0.25000000  0.06148504
+ q=   0.14433780  0.25000000  0.06148504
+ q=  -0.14433780 -0.25000000 -0.06148504
+ q=   0.14433780  0.25000000 -0.06148504
+ q=  -0.14433780 -0.25000000  0.06148504
+  reading force constants from file GraphPhon.dyn6
+  nqs=            4
+ q=   0.14433780 -0.25000000 -0.12297007
+ q=  -0.14433780  0.25000000  0.12297007
+ q=   0.14433780  0.25000000 -0.12297007
+ q=  -0.14433780 -0.25000000  0.12297007
+  reading force constants from file GraphPhon.dyn7
+  nqs=            2
+ q=  -0.28867560  0.50000000  0.00000000
+ q=  -0.28867560 -0.50000000  0.00000000
+  reading force constants from file GraphPhon.dyn8
+  nqs=            4
+ q=  -0.28867560  0.50000000  0.06148504
+ q=  -0.28867560  0.50000000 -0.06148504
+ q=  -0.28867560 -0.50000000  0.06148504
+ q=  -0.28867560 -0.50000000 -0.06148504
+  reading force constants from file GraphPhon.dyn9
+  nqs=            2
+ q=  -0.28867560  0.50000000 -0.12297007
+ q=  -0.28867560 -0.50000000 -0.12297007
+  reading force constants from file GraphPhon.dyn10
+  nqs=            2
+ q=   0.28867560  0.00000000  0.00000000
+ q=  -0.28867560 -0.00000000 -0.00000000
+  reading force constants from file GraphPhon.dyn11
+  nqs=            4
+ q=   0.28867560  0.00000000  0.06148504
+ q=  -0.28867560 -0.00000000 -0.06148504
+ q=   0.28867560  0.00000000 -0.06148504
+ q=  -0.28867560 -0.00000000  0.06148504
+  reading force constants from file GraphPhon.dyn12
+  nqs=            2
+ q=   0.28867560  0.00000000 -0.12297007
+ q=  -0.28867560 -0.00000000  0.12297007
+  reading force constants from file GraphPhon.dyn13
+  nqs=            4
+ q=  -0.14433780  0.75000000  0.00000000
+ q=   0.14433780 -0.75000000 -0.00000000
+ q=  -0.14433780 -0.75000000  0.00000000
+ q=   0.14433780  0.75000000 -0.00000000
+  reading force constants from file GraphPhon.dyn14
+  nqs=            8
+ q=  -0.14433780  0.75000000  0.06148504
+ q=   0.14433780 -0.75000000 -0.06148504
+ q=  -0.14433780  0.75000000 -0.06148504
+ q=   0.14433780 -0.75000000  0.06148504
+ q=  -0.14433780 -0.75000000  0.06148504
+ q=   0.14433780  0.75000000 -0.06148504
+ q=  -0.14433780 -0.75000000 -0.06148504
+ q=   0.14433780  0.75000000  0.06148504
+  reading force constants from file GraphPhon.dyn15
+  nqs=            4
+ q=  -0.14433780  0.75000000 -0.12297007
+ q=   0.14433780 -0.75000000  0.12297007
+ q=  -0.14433780 -0.75000000 -0.12297007
+ q=   0.14433780  0.75000000  0.12297007
+  reading force constants from file GraphPhon.dyn16
+  nqs=            2
+ q=   0.00000000  0.50000000  0.00000000
+ q=   0.00000000 -0.50000000  0.00000000
+  reading force constants from file GraphPhon.dyn17
+  nqs=            4
+ q=   0.00000000  0.50000000  0.06148504
+ q=   0.00000000  0.50000000 -0.06148504
+ q=   0.00000000 -0.50000000  0.06148504
+ q=   0.00000000 -0.50000000 -0.06148504
+  reading force constants from file GraphPhon.dyn18
+  nqs=            2
+ q=   0.00000000  0.50000000 -0.12297007
+ q=   0.00000000 -0.50000000 -0.12297007
+  reading force constants from file GraphPhon.dyn19
+  nqs=            1
+ q=  -0.57735121  0.00000000  0.00000000
+  reading force constants from file GraphPhon.dyn20
+  nqs=            2
+ q=  -0.57735121  0.00000000  0.06148504
+ q=  -0.57735121  0.00000000 -0.06148504
+  reading force constants from file GraphPhon.dyn21
+  nqs=            1
+ q=  -0.57735121  0.00000000 -0.12297007
+
+      q-space grid ok, #points =   64
+
+      fft-check success (sum of imaginary terms < 10^-12)
+
+     Q2R          :     0.10s CPU         0.17s WALL
+
+
+   This run was terminated on:  12: 5:48   8Mar2023            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

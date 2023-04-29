@@ -1,0 +1,5 @@
+&input
+   fildyn = 'GraphPhon.dyn'
+   zasr = 'simple'
+   flfrc = 'GraphPhon.k444.fc'
+/

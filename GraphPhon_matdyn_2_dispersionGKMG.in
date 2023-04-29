@@ -1,0 +1,12 @@
+&input
+   asr = 'simple'
+   flfrc = 'GraphPhon.k444.fc'
+   flfrq = 'GraphPhonGKMG.k444.freq'
+   q_in_band_form = .true.   ! no se tiene que especificar abajo cada punto solo la matriz de abajo.
+   q_in_cryst_coord = .true. ! todo se escribe en coordenadas de crystal reciproco.
+/
+4
+   0.0 0.0 0.0 30
+   0.3333 0.6666 0.0 30
+   0.0 0.5 0.0 30
+   0.0 0.0 0.0 30
